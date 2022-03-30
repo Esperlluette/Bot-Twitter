@@ -1,0 +1,26 @@
+{
+  "name": "bottwitter",
+  "version": "1.0.0",
+  "description": "My first bot twitter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd -f ./env/.env.dev node index.js",
+    "prod": "env-cmd -f ./env/.env.prod node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esperlluette/Bot-Twitter.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "JMannessier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esperlluette/Bot-Twitter/issues"
+  },
+  "homepage": "https://github.com/Esperlluette/Bot-Twitter#readme",
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
