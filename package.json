@@ -22,5 +22,8 @@
   "homepage": "https://github.com/Esperlluette/Bot-Twitter#readme",
   "devDependencies": {
     "env-cmd": "^10.1.0"
+  },
+  "dependencies": {
+    "twitter-lite": "^1.1.0"
   }
 }
